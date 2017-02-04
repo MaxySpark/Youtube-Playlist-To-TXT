@@ -1,0 +1,25 @@
+{
+  "name": "youtube-playlist-to-txt",
+  "version": "1.0.0",
+  "description": "Youtube Playlist to Txt Converter",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxySpark/Youtube-Playlist-To-TXT.git"
+  },
+  "keywords": [
+    "Youtube",
+    "MaxySpark",
+    "Playlist",
+    "Converter"
+  ],
+  "author": "MaxySpark (me@bhargab.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaxySpark/Youtube-Playlist-To-TXT/issues"
+  },
+  "homepage": "https://github.com/MaxySpark/Youtube-Playlist-To-TXT#readme"
+}

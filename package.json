@@ -4,6 +4,7 @@
   "description": "Youtube Playlist to Txt Converter",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "node test.js"
   },
   "repository": {
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/MaxySpark/Youtube-Playlist-To-TXT/issues"
   },
-  "homepage": "https://github.com/MaxySpark/Youtube-Playlist-To-TXT#readme"
+  "homepage": "https://github.com/MaxySpark/Youtube-Playlist-To-TXT#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.14.1",
+    "readline-sync": "^1.4.6",
+    "request": "^2.79.0"
+  }
 }

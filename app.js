@@ -6,9 +6,7 @@ var PORT = process.env.PORT || 3000;
 app.engine('html', engines.nunjucks);
 app.set('view engine', 'html');
 app.set('views', __dirname + "/views");
-app.use(express.static('img'));
-var images = 0;
-var imgarr =[];
+app.use(express.static('public'));
 app.get('/',function(req, res){
     res.render('index');
 });

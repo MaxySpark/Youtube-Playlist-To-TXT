@@ -25,6 +25,7 @@
   "homepage": "https://github.com/MaxySpark/Youtube-Playlist-To-TXT#readme",
   "dependencies": {
     "cheerio": "^0.22.0",
+    "entities": "^1.1.1",
     "express": "^4.14.1",
     "readline-sync": "^1.4.6",
     "request": "^2.79.0"
